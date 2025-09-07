@@ -103,7 +103,7 @@ nav .material-symbols-outlined{
         position: absolute;
         background: #BE8AD4;
         height: 100vh;
-        width: 200px;
+        width: 80px;
         top: 0;
         right: 0;
         text-align: left;
@@ -116,4 +116,5 @@ nav .material-symbols-outlined{
         font-size: 22px;
         cursor: pointer;
     }
+    
 }
