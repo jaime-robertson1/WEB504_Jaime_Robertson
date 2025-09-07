@@ -7,6 +7,21 @@ body {
     padding: 0;
 }
 
+.covered-by-your-grace-regular {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-medium {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -21,6 +36,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .nav-links ul li{
@@ -28,4 +44,38 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #BE8AD4;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+h1 {
+    font-family: "Covered By Your Grace", sans-serif;
 }
