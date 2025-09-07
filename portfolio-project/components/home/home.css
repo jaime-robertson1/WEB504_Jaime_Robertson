@@ -83,8 +83,9 @@ nav img{
 }
 
 .text-box p{
+    font-family: "Noto Sans", sans-serif;
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 25px;
     color: #fff;
 }
 
@@ -120,8 +121,8 @@ nav .material-symbols-outlined{
 
 .profile-photo img{
     max-width: 100%;
-    padding: 60px;
-    width: 300px;
+    padding: 100px;
+    width: 400px;
     height: auto;
     display: flex;
     margin-left: auto;

@@ -96,3 +96,9 @@ nav .material-symbols-outlined{
     }
 }
 
+.contact-text h1{
+    font-family: "Covered By Your Grace", sans-serif;
+    font-size: 100px;   
+    text-align: center; 
+    color: #fff;
+}
