@@ -96,9 +96,58 @@ nav .material-symbols-outlined{
     }
 }
 
-.skills-text h1{
+.skills-design h1{
     font-family: "Covered By Your Grace", sans-serif;
     font-size: 100px;   
     text-align: center; 
     color: #fff;
+}
+
+.skills-design h3{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.skills-design p{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.skills-design ul li{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 20px;
+    text-decoration: dotted;
+}
+
+.skills-it h3{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.skills-it p{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.skills-it ul li{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 20px;
+    text-decoration: dotted;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
 }

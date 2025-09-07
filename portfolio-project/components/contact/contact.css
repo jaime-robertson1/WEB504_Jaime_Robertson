@@ -102,3 +102,16 @@ nav .material-symbols-outlined{
     text-align: center; 
     color: #fff;
 }
+
+.contact-form{
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+}
