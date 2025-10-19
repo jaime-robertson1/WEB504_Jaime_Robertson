@@ -18,14 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html"><img src="../assets/images/web_logo(3).png"></a>
-            <div class="nav-links">
-                <span class="material-symbols-outlined">
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
                 close
                 </span>
                 <ul>
@@ -36,7 +37,7 @@
                     <li><a href="chat.html">CHAT</a></li>
                 </ul>
             </div>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" onclick="showMenu()">
             menu
             </span>
         </nav>
@@ -71,10 +72,24 @@
                 </ul>
         </div>
 
-</body>
-
-<footer class="footer">
+    <footer class="footer">
     <p>2025 Jaime Robertson</p>
-</footer>
+    </footer>
+
+<script>
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
 
 </html>

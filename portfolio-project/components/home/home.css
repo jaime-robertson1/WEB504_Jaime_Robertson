@@ -95,6 +95,12 @@ nav .material-symbols-outlined{
 }
 
 @media(max-width: 700px){
+
+    main.content {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .text-box h1{
         font-size: 30px;
     }
@@ -106,15 +112,17 @@ nav .material-symbols-outlined{
     .nav-links ul li{
         display: block;
     }
+
     .nav-links{
         position: absolute;
         background: #BE8AD4;
         height: 100vh;
-        width: 80px;
+        width: 150px;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
     }
     nav .material-symbols-outlined{
         display: block;

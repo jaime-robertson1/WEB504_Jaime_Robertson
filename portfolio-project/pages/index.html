@@ -18,14 +18,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html"><img src="../assets/images/web_logo(3).png"></a>
-            <div class="nav-links">
-                <span class="material-symbols-outlined">
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
                 close
                 </span>
                 <ul>
@@ -36,13 +37,13 @@
                     <li><a href="chat.html">CHAT</a></li>
                 </ul>
             </div>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" onclick="showMenu()">
             menu
             </span>
         </nav>
     </header>
 
-    <main>
+    <main class="content">
         <div class="text-box">
             <h1>Welcome!</h1>
             <p>Hi I'm Jaime, a first year IT student at NMIT.<br>I am looking to go down the infrastructure pathway within IT.
@@ -58,9 +59,20 @@
         <p>2025 Jaime Robertson</p>
     </footer>
  
+<script>
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
 </body>
-
-
 
 
 </html>
