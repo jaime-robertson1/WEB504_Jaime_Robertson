@@ -7,9 +7,10 @@ body {
     padding: 0;
 }
 
-.covered-by-your-grace-regular {
-  font-family: "Covered By Your Grace", cursive;
-  font-weight: 400;
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -95,8 +96,13 @@ nav .material-symbols-outlined{
 
 @media(max-width: 700px){
     .text-box h1{
+        font-size: 30px;
+    }
+
+    .text-box p{
         font-size: 20px;
     }
+
     .nav-links ul li{
         display: block;
     }
