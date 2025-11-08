@@ -63,6 +63,13 @@ nav img{
     transition: 0.5s;
 }
 
+.comments-text h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 80px;   
+    text-align: center; 
+    color: #fff;
+}
+
 .nav-links ul li:hover::after{
     width: 100%;
 }
@@ -97,13 +104,6 @@ nav .material-symbols-outlined{
         font-size: 22px;
         cursor: pointer;
     }
-}
-
-.chat-text h1{
-    font-family: "Rubik", sans-serif;
-    font-size: 80px;   
-    text-align: center; 
-    color: #fff;
 }
 
 .footer {
