@@ -6,7 +6,7 @@ import {
     getDownloadURL,
     listAll
 } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js';
-import { getAuth } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+import { getAuth, GoogleAuthProvider, signInWithPopup } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
 
 
 const firebaseConfig = {
@@ -47,3 +47,6 @@ try {
 
 export { storage };
 
+const auth = getAuth(app);
+auth.languageCode = 'en'
+const provider = new GoogleAuthProvider();
