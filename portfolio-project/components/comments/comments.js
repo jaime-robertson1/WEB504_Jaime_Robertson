@@ -19,3 +19,6 @@ googleLogin.addEventListener("click", function(){
 
 })
 
+googleLogout.addEventListener("click", function(){
+    signOut(auth)
+})
