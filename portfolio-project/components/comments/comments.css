@@ -78,10 +78,61 @@ nav .material-symbols-outlined{
     display: none;
 }
 
+.login {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.google-button {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #BE8AD4;
+}
+
+.google-button:hover {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color:#e6c4f5;
+}
+
 @media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
+    .comments-text h1{
+        font-size: 50px;
     }
+
+    .login {
+    text-align: center;
+    padding-top: 100px;
+    }
+
+    .google-button {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        background-color: #BE8AD4;
+    }
+
+    .google-button:hover {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        background-color:#e6c4f5;
+    }
+
     .nav-links ul li{
         display: block;
     }
@@ -109,5 +160,5 @@ nav .material-symbols-outlined{
 .footer {
     text-align: center;
     color: #fff;
-    margin-top: 250px;
+    margin-top: 440px;
 }
