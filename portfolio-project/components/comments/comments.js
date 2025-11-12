@@ -1,5 +1,5 @@
 import { auth, provider, db } from "./firebaseConfig.js";
-import { signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { signInWithPopup, GoogleAuthProvider, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 auth.languageCode = 'en'
 
@@ -19,6 +19,8 @@ googleLogin.addEventListener("click", function(){
 
 })
 
+const googleLogout = document.getElementById("google-logout-button");
 googleLogout.addEventListener("click", function(){
     signOut(auth)
+    window.location.href="comments.html";
 })
