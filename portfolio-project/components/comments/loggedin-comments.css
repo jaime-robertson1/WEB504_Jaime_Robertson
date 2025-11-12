@@ -1,0 +1,117 @@
+body {
+    background-color: #2E2B2B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.noto-sans-medium {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 200px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #BE8AD4;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.comments-text h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 80px;   
+    text-align: center; 
+    color: #fff;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav .material-symbols-outlined{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #BE8AD4;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        
+    }
+    nav .material-symbols-outlined{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+}
+
+.login {
+    display: none;
+}
