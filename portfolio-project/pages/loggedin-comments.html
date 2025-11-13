@@ -43,16 +43,29 @@
      </header>
 
         <div class="comments-text">
-            <h1>Welcome</h1>
+            <h1>Welcome!</h1>
         </div>
 
         <button id="google-login-button" class="login">Sign in with Google to add and view comments</button>
-        <button id="google-logout-button" class="logout">Sign out</button>
-  
-        <div id="comment-section">
-            <textarea id="comment-input" placeholder="Type your comment here..."></textarea>
-            <button id="submit-comment">Post Comment</button>
-            <div id="comments-list"></div>
+        
+        <div class="logout">
+            <button id="google-logout-button" class="google-logout">Sign out</button>
+        </div>
+
+        <div id="comment-box" class="comment-box">
+            <textarea id="comment-input" class="comment-input" placeholder="Type your comment here..."></textarea>
+        </div>
+
+        <div id="submit" class="submit">
+            <button id="submit-comment" class="submit-comment">Post Comment</button>
+        </div>
+        
+        <div id="comments-header" class="comments-header">
+            <h3>Comments</h3>
+        </div>
+
+        <div id="list" class="list">
+            <div id="comments-list" class="comments-list"></div>
         </div>
 
 
